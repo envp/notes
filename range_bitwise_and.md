@@ -1,4 +1,4 @@
-0000 # Bitwise AND of numbers in a range
+# Bitwise AND of numbers in a range
 
 Given a range $[m, n]$ where $0 \leq m \leq n \leq 2^{31} - 1$, return the bitwise AND of all numbers in this range, inclusive.
 
