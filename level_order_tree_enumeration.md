@@ -53,6 +53,7 @@ Now, to capture each level, we need the following: Separate the addition of chil
 define LevelOrder(Tree T):
 	Queue Q
 	Node root = T.root
+	List parentList
 	Enqueue(Q, root)
 	while(|Q| > 0):
 		Queue parentQ = Q
@@ -81,6 +82,7 @@ define LevelOrder(Tree T):
 define LevelOrderUtil(Queue Q):
 	if(|Q| > 0):
 		Queue parentQ = Q
+		List parentList
 		// Q represents elements in the current level
 		while(|Q| > 0):
 			parentList.push(Dequeue(Q))
